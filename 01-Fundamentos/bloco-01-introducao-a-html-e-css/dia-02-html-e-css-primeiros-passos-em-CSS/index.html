@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title> Portifólio web</title>
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+
+  <style>
+
+    h2 {
+     /* muda só os textos em h2  cor e tamanho da letra*/
+      font-size:2em; /* meu h2 vai ter 2x o tamanho da fonte do body */
+      color: orange;
+      
+    }
+
+      body {
+
+        font-family: Arial, Helvetica, sans-serif;
+        /* Muda o fundo  da página toda*/
+        background-color: rgb(200,255,500);
+        /* altera o tamanho da fonte */
+        font-size: 20px; 
+      }
+
+
+      p{
+
+        
+        /*   
+        - sans-serif : usara a fonte padrão do pc da pessoa, normalente arial ou helvetica.
+        - serif: vai usar o padrão para o pc da pessoa, que é o Times New Roman*/
+        /* caso eu queira que apareca uma fonte EXPECIFICA, é só citar, como abaixo 
+        mas se n tiver a fonte no meu pc, ela n aparece;*/
+        font-family:  Arial, Helvetica, sans-serif;
+
+      }
+
+      ul{
+        font-family: 'Delicious Handrawn'
+      }
+
+      #Empreendedor {
+        background-color: brown;
+      }
+     
+
+      .list-stryle{
+        /*  quando é uma classe, começa com ponto (.)*/
+        background-color: blueviolet; 
+        /* rexto em negrito: */
+        font-weight: bold;
+        /* fonte em italico */
+        font-style: italic;
+        /*espaçamento entre as linhas */
+        line-height: 40px;
+        /* alinhas texto */
+        text-align: center;
+        /* para sublinhar */
+        text-decoration: underline;
+
+
+      }
+
+  </style>
+</head>
+<body>
+  <h1>Bruno de Oliveira</h1>
+  <img src="Minha foto.jpeg" alt="Minha foto de perfil" width="250px" id="foto"><br>
+  <strong><em>Bruno de Oliveira - foto de perfil</em><br></strong>
+      <em>
+        <a href="https://www.linkedin.com/in/bruno-de-oliveira-815175187/" target="_blank">Linkedin</a>
+      </em>
+  <h2> Informações pessoais:</h2>
+  <p>Nascido dia 24/01/2000 em Francisco Beltrão-PR.</p>
+  <p>Reside atualmente em Blumenau-SC</p>
+  <p>Faculdade de Engenharia química incompleta (8º semestre)</p>
+  <p>Atual estudante da turma 32 da Trybe</p>
+
+  <h2><strong>Habilidades</strong></h2>  
+  <ul class="list-stryle">
+    <li>Inglês básico</li>
+    <li>Comunicativo</li>
+    <li>Trabalho em equipe</li>
+    <li>Gestão de pessoas</li>
+    <li>Comprometimento</li>
+    <li>Unix e Shell</li>
+    <li>Git & GitHub</li>
+    <li>HTML</li>
+    <li><strong><a href="#Empreendedor">Empreendedor</a></strong></li>
+    </ul>
+
+
+  <a href="#foto">Minha foto</a><br>
+  <a href="https://www.twitch.tv/kennzy" target="_blank">Streamer favorito</a>
+
+  <p id="Empreendedor"> Em meio a pandemia, eu e minha namorada abrimos uma cafetaria
+    em Brusque-SC.<br> A cafeteria deu super certo, conseguimos lucrar tanto com os produtos quanto na venda da mesma.
+    </p>
+    <p id="Empreendedor">Enquanto empnreendia com o café, aprendi sózinho a operar na bolsa de valores e consegui<br>
+  fazer os lucros do meu negócio multiplicarem em aproximadamente 3 vezes.
+    </p>
+    <p id="Empreendedor">Vendemos a cafeteria final de 2020 pois estava nos consumindo muito tempo e precisavamos voltar<br> 
+  para a faculdade presencialmente (minha namorada estava muito avançada para desistir).
+    </p>
+</body>
+</html>
